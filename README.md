@@ -48,7 +48,7 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
 
 
-## E.   TRAINING THE COVID-19 FACE MASK DETECTION
+## E.   TRAINING THE SMART AIR-COOLER
 
 (will be update soon)
 
