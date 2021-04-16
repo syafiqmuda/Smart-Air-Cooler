@@ -5,16 +5,16 @@
 **Smart Air Cooling:** Person/Moving Detection using Deep Learning
 
 **Team Members:** 
-- Mohammad Syafiq Bin Enchek Muda 	(B031910178)
-- Abdillah Safwan Bin Yusop 		(B031910120)
-- Muhammad Ridhwan Bin Razalee 		(B031910197)
+- Mohammad Syafiq Bin Enchek Muda (B031910178)
+- Abdillah Safwan Bin Yusop       (B031910120)
+- Muhammad Ridhwan Bin Razalee    (B031910197)
 - Farid Hazeeq Bin Burhanuddin 		(B031910427)
 
 
 - [ ] **Objectives:**
 The objective for this project are mainly for
 - Reduce amount of workload needed to adjust fan position
-- Create a small portable cooling fan just like a mini air-conditioner
+- Create a small portable cooling fan like a mini air-conditioner
 - The fan will automatically target person/moving object using a camera.
 - Increase efficiency of the power and air-cold as normal fan will only blow in static or sometime it rotate when there is no person standing there.  
 
