@@ -30,8 +30,8 @@ Due to that, our team decide to make a Smart Air Cooling to solve this problem. 
 This is a small project that combining IoT and AI together to make a small scale air cooling which automatically blow the cold air toward the target user.   
 
 
-![Coding](https://news.llu.edu/sites/news.llu.edu/files/styles/featured_image_755x425/public/screen_shot_2020-08-11_at_9.15.07_am.png?itok=4wgL0Fl1&c=d840cfde9df530f5582918792e0040a0)
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+![Coding](https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/src/static%20fan%20blow.webp)
+Figure 1 shows the static fan blow only on straight where user need to stand in front of it.
 
 
 ## C.  DATASET
