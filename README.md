@@ -31,6 +31,7 @@ This is a small project that combining IoT and AI together to make a small scale
 
 
 ![Coding](https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/src/static%20fan%20blow.webp)
+
 Figure 1 shows the static fan blow only on straight where user need to stand in front of it.
 
 
