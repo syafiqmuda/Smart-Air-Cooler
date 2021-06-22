@@ -62,7 +62,7 @@ Additional Resources:
 
 
 
-## D.   PROJECT STRUCTURE
+## D.   PROJECT DIRECTORY FILE STRUCTURE
 
 The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
@@ -71,7 +71,8 @@ The following directory is our structure of our project:
 - │   ├── with_mask [690 entries]
 - │   └── without_mask [686 entries]
 - ├── arduino_code
-- │   └── arduino_code.ino
+- │   ├── arduino_static_camera.ino
+- │   └── arduino_moving_camera.ino
 - ├── haarcascades
 - │   ├── haarcascade_eye.xml
 - │   ├── haarcascade_eye_tree_eyeglasses.xml
@@ -90,9 +91,20 @@ The following directory is our structure of our project:
 - │   ├── haarcascade_smile.xml
 - │   └── haarcascade_upperbody.xml
 - ├── haarcascade_frontalface_default.xml
-- └── Python.py
+- ├── Static_camera.py
+- └── Moving_amera.py
 
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
+
+Three image examples/ are provided so that you can test the static image face mask detector.
+
+We’ll be reviewing three Python scripts in this tutorial:
+
+- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
+- detect_mask_image.py: Performs face mask detection in static images
+- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
+
+In the next two sections, we will train our face mask detector.
 
 
 ## E.   TRAINING AND BUILDING THE SMART AIR-COOLER
