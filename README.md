@@ -41,6 +41,25 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 ![haarcascades](image)
 
+ For this, we apply each and every feature on all the training images. For each feature, it finds the best threshold which will classify the faces to positive and negative. Obviously, there will be errors or misclassifications. We select the features with minimum error rate, which means they are the features that most accurately classify the face and non-face images. (The process is not as simple as this. Each image is given an equal weight in the beginning. After each classification, weights of misclassified images are increased. Then the same process is done. New error rates are calculated. Also new weights. The process is continued until the required accuracy or error rate is achieved or the required number of features are found).
+
+![haarcascades](image)
+
+The final classifier is a weighted sum of these weak classifiers. It is called weak because it alone can't classify the image, but together with others forms a strong classifier. The paper says even 200 features provide detection with 95% accuracy. Their final setup had around 6000 features. (Imagine a reduction from 160000+ features to 6000 features. That is a big gain).
+
+So now you take an image. Take each 24x24 window. Apply 6000 features to it. Check if it is face or not. Wow.. Isn't it a little inefficient and time consuming? Yes, it is. The authors have a good solution for that. Here is the result of running the code above and using as input the video stream of a in webcam:
+
+![haarcascades](image)
+
+
+Additional Resources
+
+    Paul Viola and Michael J. Jones. Robust real-time face detection. International Journal of Computer Vision, 57(2):137–154, 2004. [224]
+    Rainer Lienhart and Jochen Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I–900. IEEE, 2002. [132]
+    Video Lecture on Face Detection and Tracking
+    An interesting interview regarding Face Detection by Adam Harvey
+    OpenCV Face Detection: Visualized on Vimeo by Adam Harvey
+
 
 
 ## D.   PROJECT STRUCTURE
@@ -99,6 +118,7 @@ The component used to build this part are :
 - 2x Servo MG90s
 - 1x Servo Pan Tilt Platform
 - 1x Arduino Mega
+- 1x USB Webcam
 
 **Software**
 
