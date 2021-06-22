@@ -37,34 +37,11 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 ## C.  DATASET
 
-For this project, we will mention on how the device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device (Servomachanism) and finally is the software used for coding in order to create an AI that control the device.
+For this dataset we will be using haarcascades which is an Object Detection using Haar feature-based cascade classifiers for the effective object detection method proposed by Paul Viola and Michael Jones based on their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. Initially, the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. For this, Haar features shown in the below image are used. They are just like our convolutional kernel. Each feature is a single value obtained by subtracting sum of pixels under the white rectangle from sum of pixels under the black rectangle.
 
-**Cooler Generator Part**
+![haarcascades](image)
 
-![Figure 2](image here)
 
-The component used to build this part are :
-- 2x 150mm Fan
-- 1x 92mm Fan (with heatsink)
-- 1x Radiator
-- 1x Waterpump (with reservoir)
-- 1x powersupply (12v 10A)
-
-**Servomachanism**
-
-![Figure 3](image here)
-
-The component used to build this part are :
-- 2x Servo MG90s
-- 1x Servo Pan Tilt Platform
-- 1x Arduino Mega
-
-**Software**
-
-![Figure 4](image here)
-IDE used
-- Arduino IDE
-- Pyhton (AI)
 
 ## D.   PROJECT STRUCTURE
 
@@ -99,9 +76,36 @@ The following directory is our structure of our project:
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
 
 
-## E.   TRAINING THE SMART AIR-COOLER
+## E.   TRAINING AND BUILDING THE SMART AIR-COOLER
 
-(will be update soon)
+In order to first to use this this project, we will mention on how the will device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device (Servomachanism) and finally is the software used for coding in order to create an AI that control the device.
+
+**Cooler Generator Part**
+
+![Figure 2](image here)
+
+The component used to build this part are :
+- 2x 150mm Fan
+- 1x 92mm Fan (with heatsink)
+- 1x Radiator
+- 1x Waterpump (with reservoir)
+- 1x powersupply (12v 10A)
+
+**Servomachanism**
+
+![Figure 3](image here)
+
+The component used to build this part are :
+- 2x Servo MG90s
+- 1x Servo Pan Tilt Platform
+- 1x Arduino Mega
+
+**Software**
+
+![Figure 4](image here)
+IDE used
+- Arduino IDE
+- Pyhton (AI)
 
 
 ## F.  RESULT AND CONCLUSION
