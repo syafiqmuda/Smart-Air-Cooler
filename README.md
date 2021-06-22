@@ -2,7 +2,7 @@
 
 ## A. PROJECT SUMMARY
 
-**Smart Air Cooling:** Person/Moving Detection using Deep Learning
+**Smart Air Cooling:** Person/Moving/face Detection using Deep Learning
 
 **Team Members:** 
 - Mohammad Syafiq Bin Enchek Muda 	(B031910178)
@@ -37,7 +37,9 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 ## C.  DATASET
 
-(will be update soon)
+For this project, we will mention on how the device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device and finally is the software used for coding in order to create an AI that control the device.
+
+###Cooler Part
 
 
 ## D.   PROJECT STRUCTURE
