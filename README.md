@@ -58,11 +58,13 @@ Additional Resources:
 1. Paul Viola and Michael J. Jones. Robust real-time face detection. International Journal of Computer Vision, 57(2):137–154, 2004. [224]
 2. Rainer Lienhart and Jochen Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I–900. IEEE, 2002. [132]
 3. An interesting interview regarding Face Detection by ![Adam Harvey](https://web.archive.org/web/20171204220159/http://www.makematics.com/research/viola-jones/)
-4. OpenCV Face Detection: [Liz Miller](https://www.learnrobotics.org/blog/face-tracking-opencv/?utm_source=youtube&utm_medium=description&utm_campaign=face_tracking_video)
+4. OpenCV Face Detection: [By Liz Miller](https://www.learnrobotics.org/blog/face-tracking-opencv/?utm_source=youtube&utm_medium=description&utm_campaign=face_tracking_video)
 
 
 
-## D.   PROJECT DIRECTORY FILE STRUCTURE
+## D.   PROJECT DIRECTORY FILE STRUCTUREs
+
+
 
 The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
@@ -73,6 +75,8 @@ The following directory is our structure of our project:
 - ├── arduino_code
 - │   ├── arduino_static_camera.ino
 - │   └── arduino_moving_camera.ino
+- ├── img
+- │   └── (Used for README.md).
 - ├── haarcascades
 - │   ├── haarcascade_eye.xml
 - │   ├── haarcascade_eye_tree_eyeglasses.xml
@@ -92,19 +96,15 @@ The following directory is our structure of our project:
 - │   └── haarcascade_upperbody.xml
 - ├── haarcascade_frontalface_default.xml
 - ├── Static_camera.py
-- └── Moving_amera.py
+- └── Moving_Camera.py
 
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
+There will be 2 tesing that will be reviewing and mention above which is the used of static camera and moving camera (support with Servo + Pan Tilt Control)
 
-Three image examples/ are provided so that you can test the static image face mask detector.
+- Static_camera.py.py: Performs face mask detection in static camera
+- Moving_camera.py: Performs face mask detection with a moving camera
 
-We’ll be reviewing three Python scripts in this tutorial:
-
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
-
-In the next two sections, we will train our face mask detector.
+On the next section.
 
 
 ## E.   TRAINING AND BUILDING THE SMART AIR-COOLER
@@ -131,6 +131,7 @@ The component used to build this part are :
 - 1x Servo Pan Tilt Platform
 - 1x Arduino Mega
 - 1x USB Webcam
+- 1x breadboard (used for connection both Servomachanism and Cooler)
 
 **Software**
 
