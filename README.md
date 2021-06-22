@@ -37,13 +37,34 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 ## C.  DATASET
 
-For this project, we will mention on how the device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device and finally is the software used for coding in order to create an AI that control the device.
+For this project, we will mention on how the device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device (Servomachanism) and finally is the software used for coding in order to create an AI that control the device.
 
-- Cooler Part
+# Cooler Generator Part
+
 ![Figure 2](image here)
+
 The component used to build this part are :
+- 2x 150mm Fan
+- 1x 92mm Fan (with heatsink)
+- 1x Radiator
+- 1x Waterpump (with reservoir)
+- 1x powersupply (12v 10A)
 
+# Servomachanism
 
+![Figure 3](image here)
+
+The component used to build this part are :
+- 2x Servo MG90s
+- 1x Servo Pan Tilt Platform
+- 1x Arduino Mega
+
+# Software
+
+![Figure 4](image here)
+IDE used
+- Arduino IDE
+- Pyhton (AI)
 
 ## D.   PROJECT STRUCTURE
 
