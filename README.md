@@ -39,7 +39,10 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 For this project, we will mention on how the device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device and finally is the software used for coding in order to create an AI that control the device.
 
-###Cooler Part
+- Cooler Part
+![Figure 2](image here)
+The component used to build this part are :
+
 
 
 ## D.   PROJECT STRUCTURE
