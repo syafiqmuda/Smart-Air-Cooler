@@ -42,7 +42,7 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 ## D.   PROJECT STRUCTURE
 
-(will be update soon)
+The following directory is our structure of our project:
 
 
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
