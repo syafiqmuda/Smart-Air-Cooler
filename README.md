@@ -10,7 +10,7 @@
 - Muhammad Ridhwan Bin Razalee 		(B031910197)
 - Farid Hazeeq Bin Burhanuddin 		(B031910427)
 
-[ ] **Objectives:**
+**Objectives:**
 The objective for this project are mainly for
 - Reduce amount of workload needed to adjust fan position
 - Create a small portable cooling fan just like a mini air-conditioner
