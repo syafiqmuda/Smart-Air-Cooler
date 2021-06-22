@@ -47,7 +47,9 @@ For this, we apply each and every feature on all the training images. For each f
 
 The final classifier is a weighted sum of these weak classifiers. It is called weak because it alone can't classify the image, but together with others forms a strong classifier. The paper says even 200 features provide detection with 95% accuracy. Their final setup had around 6000 features. (Imagine a reduction from 160000+ features to 6000 features. That is a big gain).
 
-So now you take an image. Take each 24x24 window. Apply 6000 features to it. Check if it is face or not. Wow.. Isn't it a little inefficient and time consuming? Yes, it is. The authors have a good solution for that. Here is the result of running the code above and using as input the video stream of a in webcam:
+for the source code we will provided link below and also the folder for the haarcascades. Here is the result of running the code above and using as input the video stream of a in webcam:
+
+**NOTED: The haarcascades that will be used will be haarcascade_frontalface_default.xml, the user may change the haarcascades file and the code based on that file as they like.**
 
 ![haarcascades](image)
 
