@@ -53,10 +53,10 @@ So now you take an image. Take each 24x24 window. Apply 6000 features to it. Che
 
 
 Additional Resources
--- Paul Viola and Michael J. Jones. Robust real-time face detection. International Journal of Computer Vision, 57(2):137–154, 2004. [224]
--- Rainer Lienhart and Jochen Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I–900. IEEE, 2002. [132]
--- An interesting interview regarding Face Detection by ![Adam Harvey](https://web.archive.org/web/20171204220159/http://www.makematics.com/research/viola-jones/)
--- OpenCV Face Detection: Visualized on ![Vimeo by Adam Harvey](https://vimeo.com/12774628)
+1. Paul Viola and Michael J. Jones. Robust real-time face detection. International Journal of Computer Vision, 57(2):137–154, 2004. [224]
+2. Rainer Lienhart and Jochen Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I–900. IEEE, 2002. [132]
+3. An interesting interview regarding Face Detection by ![Adam Harvey](https://web.archive.org/web/20171204220159/http://www.makematics.com/research/viola-jones/)
+4. OpenCV Face Detection: Visualized on ![Vimeo by Adam Harvey](https://vimeo.com/12774628)
 
 
 
