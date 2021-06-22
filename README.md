@@ -69,7 +69,32 @@ IDE used
 ## D.   PROJECT STRUCTURE
 
 The following directory is our structure of our project:
-
+- $ tree --dirsfirst --filelimit 10
+- .
+- ├── dataset
+- │   ├── with_mask [690 entries]
+- │   └── without_mask [686 entries]
+- ├── arduino_code
+- │   └── arduino_code.ino
+- ├── haarcascades
+- │   ├── haarcascade_eye.xml
+- │   ├── haarcascade_eye_tree_eyeglasses.xml
+- │   ├── haarcascade_frontalcatface.xml
+- │   ├── haarcascade_frontalcatface_extended.xml
+- │   ├── haarcascade_frontalface_alt.xml
+- │   ├── haarcascade_frontalface_alt_tree.xml
+- │   ├── haarcascade_frontalface_alt2.xml
+- │   ├── haarcascade_frontalface_default.xml
+- │   ├── haarcascade_fullbody.xml
+- │   ├── haarcascade_lefteye_2splits.xml
+- │   ├── haarcascade_licence_plate_rus_16stages.xml
+- │   ├── haarcascade_lowerbody.xml
+- │   ├── haarcascade_profileface.xml
+- │   ├── haarcascade_righteye_2splits.xml
+- │   ├── haarcascade_smile.xml
+- │   └── haarcascade_upperbody.xml
+- ├── haarcascade_frontalface_default.xml
+- └── Python.py
 
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
 
