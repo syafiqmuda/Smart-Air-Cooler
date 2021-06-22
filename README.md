@@ -10,6 +10,7 @@
 - Muhammad Ridhwan Bin Razalee 		(B031910197)
 - Farid Hazeeq Bin Burhanuddin 		(B031910427)
 
+
 **Objectives:**
 The objective for this project are mainly for
 - Reduce amount of workload needed to adjust fan position
