@@ -58,7 +58,7 @@ Additional Resources:
 1. Paul Viola and Michael J. Jones. Robust real-time face detection. International Journal of Computer Vision, 57(2):137–154, 2004. [224]
 2. Rainer Lienhart and Jochen Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I–900. IEEE, 2002. [132]
 3. An interesting interview regarding Face Detection by ![Adam Harvey](https://web.archive.org/web/20171204220159/http://www.makematics.com/research/viola-jones/)
-4. OpenCV Face Detection: Visualized on ![Vimeo by Adam Harvey](https://vimeo.com/12774628)
+4. OpenCV Face Detection: [Liz Miller](https://www.learnrobotics.org/blog/face-tracking-opencv/?utm_source=youtube&utm_medium=description&utm_campaign=face_tracking_video)
 
 
 
