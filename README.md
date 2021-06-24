@@ -113,8 +113,7 @@ In order to first to use this this project, we will mention on how the will devi
 
 **Cooler Generator Part**
 
-![Figure 2](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/cooler_part.jpg)
-<img src="https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/cooler_part.jpg" width="48">
+<img src="https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/cooler_part.jpg" width="640">
 
 The component used to build this part are :
 - 2x 150mm Fan
