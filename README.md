@@ -147,7 +147,8 @@ This problem is occur due to money issue and the limitation to do a reaseach on 
 
 <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/final_result.jpg" width="400">
 
-so special thank to our lecture for giving this opportunity to learn Artificial Intelligent, and also to my team for the support.
+so special thank to our lecture for giving this opportunity to learn Artificial Intelligent, and same goes to my team for the support. For more information we will make a video presentation on the section below.
+
 
 ## G.   PROJECT PRESENTATION 
 
