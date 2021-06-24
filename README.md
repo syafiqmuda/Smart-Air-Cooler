@@ -2,7 +2,7 @@
 
 ## A. PROJECT SUMMARY
 
-**Smart Air Cooling:** Person/Moving/face Detection using Deep Learning
+**Smart Air Cooling:** Implemetation of IoT for face Detection using arduino, OpenCV and haarcascade
 
 **Team Members:** 
 - Mohammad Syafiq Bin Enchek Muda 	(B031910178)
@@ -61,20 +61,19 @@ Additional Resources:
 4. OpenCV Face Detection: [By Liz Miller](https://www.learnrobotics.org/blog/face-tracking-opencv/?utm_source=youtube&utm_medium=description&utm_campaign=face_tracking_video)
 
 
-
 ## D.   PROJECT DIRECTORY FILE STRUCTUREs
 
-
-
 The following directory is our structure of our project:
-- $ tree --dirsfirst --filelimit 10
-- .
-- ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
+- $ tree --dirsfirst
+- Smart Air Cooler v1.3
+-------------------------------------------------------------
 - ├── arduino_code
-- │   ├── arduino_static_camera.ino
-- │   └── arduino_moving_camera.ino
+- │   ├── connection_tester
+- │       └── LED tester.ino
+- │   ├── cmoving_camera
+- │       └── moving_camera.ino
+- │   └── static_camera
+- │       └── static_camera.ino
 - ├── img
 - │   └── (Used for README.md).
 - ├── haarcascades
@@ -95,14 +94,16 @@ The following directory is our structure of our project:
 - │   ├── haarcascade_smile.xml
 - │   └── haarcascade_upperbody.xml
 - ├── haarcascade_frontalface_default.xml
-- ├── Static_camera.py
-- └── Moving_Camera.py
+- ├── Connection_testing.py
+- ├── Face_detection_test.py
+- └── Smart Air Cooler.py
 
 The dataset/ directory contains the data described in the “Smart Air-Cooler dataset” section.
 There will be 2 tesing that will be reviewing and mention above which is the used of static camera and moving camera (support with Servo + Pan Tilt Control)
 
-- Static_camera.py.py: Performs face mask detection in static camera
-- Moving_camera.py: Performs face mask detection with a moving camera
+- Arduino File: Use this to control servo based on certain situation (moving camera or static camera)
+- Face_detection_test.py: Testing the face tracking using haarcascade technique.
+- Smart Air Cooler.py: Final code that need to connect with arduino module in order to work (Noted: It is important to select correct .ino file to avoid any damage to servo)
 
 On the next section.
 
@@ -138,7 +139,7 @@ The component used to build this part are :
 <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/arduino_sw.jpg" width="400"> <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/pyhton_sw.JPG" width="400">
 
 
-IDE used
+IDE used:
 - Arduino IDE
 - Pyhton (AI)
 
