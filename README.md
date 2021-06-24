@@ -133,7 +133,6 @@ The component used to build this part are :
 
 <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/arduino_sw.jpg" width="400"> <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/pyhton_sw.JPG" width="400">
 
-
 IDE used:
 - Arduino IDE
 - Pyhton (AI)
@@ -147,6 +146,8 @@ For the final touch of this project, we will combine all part together becoming 
 This problem is occur due to money issue and the limitation to do a reaseach on the outside of the campus to find the part to build for the fan blower. Because of that we only used available item only to demonstrate on the project will works. As a student and also due to virus pendemic, we have a hard time to communicate with team especially this project is IoT project based that require a lot of team face-to-face meeting. This what we have to deliver or present of the final project.
 
 <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/final_result.jpg" width="400">
+
+so special thank to our lecture for giving this opportunity to learn Artificial Intelligent, and also to my team for the support.
 
 ## G.   PROJECT PRESENTATION 
 
