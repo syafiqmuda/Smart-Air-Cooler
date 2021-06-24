@@ -10,7 +10,6 @@
 - Muhammad Ridhwan Bin Razalee 		(B031910197)
 - Farid Hazeeq Bin Burhanuddin 		(B031910427)
 
-
 **Objectives:**
 The objective for this project are mainly for
 - Reduce amount of workload needed to adjust fan position
@@ -33,7 +32,6 @@ This is a small project that combining IoT and AI together to make a small scale
 ![Coding](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/fan_blow.webp)
 
 Figure 1 shows the static fan blow only on straight where user need to stand in front of it.
-
 
 ## C.  DATASET
 
@@ -58,7 +56,6 @@ Additional Resources:
 2. Rainer Lienhart and Jochen Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I–900. IEEE, 2002. [132]
 3. An interesting interview regarding Face Detection by ![Adam Harvey](https://web.archive.org/web/20171204220159/http://www.makematics.com/research/viola-jones/)
 4. OpenCV Face Detection: [By Liz Miller](https://www.learnrobotics.org/blog/face-tracking-opencv/?utm_source=youtube&utm_medium=description&utm_campaign=face_tracking_video)
-
 
 ## D.   PROJECT DIRECTORY FILE STRUCTUREs
 
