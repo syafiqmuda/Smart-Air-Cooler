@@ -152,7 +152,13 @@ so special thank to our lecture for giving this opportunity to learn Artificial 
 
 ## G.   PROJECT PRESENTATION 
 
-(will be update soon)
+In this video, we will be presenting our final AI project which is a Smart Air Cooler using Python, OpenCV, haarcascades and combine it with arduino to make it an IoT project.
+To create our Smart Air Cooler, we use haarcascades which is a simple dataset that have already trained of thousand of people face.
+We fine-tuned using arduino code to move the servo on that being equip with any camera or webcam available
+
+It is still in prototype and we hope to able to finish this final product.
+
+**youtube link here**
 
 
 
