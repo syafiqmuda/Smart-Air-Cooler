@@ -135,7 +135,9 @@ The component used to build this part are :
 
 **Software**
 
-![Figure 4](image here)
+<img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/arduino_sw.jpg" width="400"> <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/pyhton_sw.JPG" width="400">
+
+
 IDE used
 - Arduino IDE
 - Pyhton (AI)
