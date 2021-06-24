@@ -30,7 +30,7 @@ Due to that, our team decide to make a Smart Air Cooling to solve this problem. 
 This is a small project that combining IoT and AI together to make a small scale air cooling which automatically blow the cold air toward the target user.   
 
 
-![Coding](https://github.com/syafiqmuda/Smart-Air-Cooler/blob/Smart%Air%Cooler%v1.3/img/fan_blow.webp)
+![Coding](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/fan_blow.webp)
 
 Figure 1 shows the static fan blow only on straight where user need to stand in front of it.
 
