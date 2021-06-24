@@ -39,11 +39,11 @@ Figure 1 shows the static fan blow only on straight where user need to stand in 
 
 For this dataset we will be using haarcascades which is an Object Detection using Haar feature-based cascade classifiers for the effective object detection method proposed by Paul Viola and Michael Jones based on their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. Initially, the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. For this, Haar features shown in the below image are used. They are just like our convolutional kernel. Each feature is a single value obtained by subtracting sum of pixels under the white rectangle from sum of pixels under the black rectangle.
 
-![haarcascades](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/haar.png)
+![haarcascades](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/haar_features.jpg)
 
 For this, we apply each and every feature on all the training images. For each feature, it finds the best threshold which will classify the faces to positive and negative. Obviously, there will be errors or misclassifications. We select the features with minimum error rate, which means they are the features that most accurately classify the face and non-face images. (The process is not as simple as this. Each image is given an equal weight in the beginning. After each classification, weights of misclassified images are increased. Then the same process is done. New error rates are calculated. Also new weights. The process is continued until the required accuracy or error rate is achieved or the required number of features are found).
 
-![haarcascades](image)
+![haarcascades](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/haar.png)
 
 The final classifier is a weighted sum of these weak classifiers. It is called weak because it alone can't classify the image, but together with others forms a strong classifier. The paper says even 200 features provide detection with 95% accuracy. Their final setup had around 6000 features. (Imagine a reduction from 160000+ features to 6000 features. That is a big gain).
 
@@ -113,7 +113,7 @@ In order to first to use this this project, we will mention on how the will devi
 
 **Cooler Generator Part**
 
-![Figure 2](image here)
+![Figure 2](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/cooler_part.jpg)
 
 The component used to build this part are :
 - 2x 150mm Fan
@@ -124,7 +124,7 @@ The component used to build this part are :
 
 **Servomachanism**
 
-![Figure 3](image here)
+![Figure 3](https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/servomachanism.jpg)
 
 The component used to build this part are :
 - 2x Servo MG90s
