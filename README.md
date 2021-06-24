@@ -140,8 +140,9 @@ IDE used:
 
 
 ## F.  RESULT AND CONCLUSION
+For the final touch of this project, we will combine all part together becoming one full build project. but to take noted also that even it is the final result, due to pandemic of Covid-19 happen while this project are ongoing. Some assembly item may be missing like the servo should be equip with the fan like the design above.
+<img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/expected.jpg" width="400">
 
-(will be update soon)
 
 
 
