@@ -52,6 +52,7 @@ for the source code we will provided link below and also the folder for the haar
 **NOTED: The haarcascades that will be used will be haarcascade_frontalface_default.xml, the user may change the haarcascades file and the code based on that file as they like.**
 
 ![haarcascades](image)
+<img src="https://raw.githubusercontent.com/syafiqmuda/Smart-Air-Cooler/main/Smart%20Air%20Cooler%20v1.3/img/example_output_1.gif" width="740">
 
 
 Additional Resources:
