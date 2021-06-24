@@ -65,7 +65,6 @@ Additional Resources:
 The following directory is our structure of our project:
 - $ tree --dirsfirst
 - Smart Air Cooler v1.3
--------------------------------------------------------------
 - ├── arduino_code
 - │   ├── connection_tester
 - │       └── LED tester.ino
@@ -107,9 +106,9 @@ There will be 2 tesing that will be reviewing and mention above which is the use
 On the next section.
 
 
-## E.   TRAINING AND BUILDING THE SMART AIR-COOLER
+## E.   BUILDING THE SMART AIR-COOLER
 
-In order to first to use this this project, we will mention on how the will device works. We will also explain on the part we used to implemented for this project. There will be a divided part that split into certain categories. The first part on how to make a cooler, the second is the electornic device (Servomachanism) and finally is the software used for coding in order to create an AI that control the device.
+on this section we will explain on how we build this project and how the code are implemented. we will divided the part and split it into certain categories. The first part on how to make a cooler, the second is the electornic device (Servomachanism) and finally is the software used for coding in order to create an AI that control the device.
 
 **Cooler Generator Part**
 
