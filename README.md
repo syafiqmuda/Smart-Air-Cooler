@@ -140,11 +140,13 @@ IDE used:
 
 
 ## F.  RESULT AND CONCLUSION
-For the final touch of this project, we will combine all part together becoming one full build project. but to take noted also that even it is the final result, due to pandemic of Covid-19 happen while this project are ongoing. Some assembly item may be missing like the servo should be equip with the fan like the design above.
+For the final touch of this project, we will combine all part together becoming one full build project. but to take noted also that even it is the final result (prototype), due to pandemic of Covid-19 happen while this project are ongoing. Some assembly item may be missing like the servo should be equip with the fan like the design above.
+
 <img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/expected.jpg" width="400">
 
+This problem is occur due to money issue and the limitation to do a reaseach on the outside of the campus to find the part to build for the fan blower. Because of that we only used available item only to demonstrate on the project will works. As a student and also due to virus pendemic, we have a hard time to communicate with team especially this project is IoT project based that require a lot of team face-to-face meeting. This what we have to deliver or present of the final project.
 
-
+<img src="https://github.com/syafiqmuda/Smart-Air-Cooler/blob/main/Smart%20Air%20Cooler%20v1.3/img/final_result.jpg" width="400">
 
 ## G.   PROJECT PRESENTATION 
 
