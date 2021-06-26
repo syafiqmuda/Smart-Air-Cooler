@@ -158,7 +158,8 @@ We fine-tuned using arduino code to move the servo on that being equip with any 
 
 It is still in prototype and we hope to able to finish this final product.
 
-https://www.youtube.com/watch?v=fZvVsy3iD6A
+![Link](https://www.youtube.com/watch?v=fZvVsy3iD6A)
+
 
 
 
