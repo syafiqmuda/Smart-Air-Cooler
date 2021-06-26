@@ -160,7 +160,7 @@ It is still in prototype and we hope to able to finish this final product.
 
 **Smart Air Cooler**
 
-[![link](https://img.youtube.com/vi/fZvVsy3iD6A/1.jpg)](https://www.youtube.com/watch?v=fZvVsy3iD6A "link")
+[![link](https://img.youtube.com/vi/fZvVsy3iD6A/0.jpg)](https://www.youtube.com/watch?v=fZvVsy3iD6A "link")
 
 
 
