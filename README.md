@@ -5,7 +5,7 @@
 **Smart Air Cooling:** Implemetation of IoT for face Detection using arduino, OpenCV and haarcascade
 
 **Team Members:** 
-- Mohammad Syafiq Bin Enchek Muda 	(B031910178)
+- Mohammad Syafiq Bin Enchek Muda 	(B031910178) (Leader)
 - Abdillah Safwan Bin Yusop 		(B031910120)
 - Muhammad Ridhwan Bin Razalee 		(B031910197)
 - Farid Hazeeq Bin Burhanuddin 		(B031910427)
